@@ -22,4 +22,5 @@ def send_msg_test():
               'text': 'You just sent yourself an email.'})
     # print(r.text)
     # print(r.status_code)
+    # Testing something
     return r
