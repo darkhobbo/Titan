@@ -1,9 +1,9 @@
 from flask import Flask
 from flask import request
 
-from code import formProcessing
+import formHandler
 
-process_form = formProcessing.process_form
+process_form = formHandler.process_form
 
 app = Flask(__name__)
 
