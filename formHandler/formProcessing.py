@@ -4,7 +4,6 @@ import requests
 
 
 def process_form(req):
-    # send_msg_test()
     if req.method == 'POST':
         return send_msg_test(req)
     else:
