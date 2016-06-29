@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Welcome!</title>
-</head>
-<body>
-    <h3>Send message to the webmaster</h3>
-    <form method="POST" action=""><!-- http://heroku.url.com?key=ADMIN -->
-        <input type="text" name="name" placeholder="Name">
-        <input type="email" name="_replyto" placeholder="Email">
-        <input type="email" name="_cc" placeholder="CC">
-        <input type="text" name="_subject" placeholder="Subject">
-        <input type="hidden" name="_subject" value="New message from my website!">
-        <input type="hidden" name="_next" value="http://127.0.0.1:5000/">
-        <input type="text" name="_gotcha" style="display: none">
-
-
-
-        <textarea name="message" placeholder="Message" cols="30" rows="8"></textarea>
-        <input type="submit" value="Send">
-    </form>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Welcome!</title>
+    </head>
+    <body>
+        <h3>Send message to the webmaster</h3>
+        <form method="POST" action="/"><!-- http://heroku.url.com?key=ADMIN -->
+            <input type="text" name="_name" placeholder="Name" required>
+            <input type="email" name="_replyto" placeholder="Email" required>
+            <input type="hidden" name="_cc" placeholder="CC">
+            <input type="text" name="_subject" placeholder="Subject">
+            <input type="text" name="_gotcha" style="display: none">
+            <textarea name="_message" placeholder="Message" cols="30" rows="8" required></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </body>
 </html>
