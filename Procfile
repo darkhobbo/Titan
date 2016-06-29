@@ -1,1 +1,1 @@
-web: flask Titan.py --log-file -
+web: gunicorn Titan:app --log-file -
