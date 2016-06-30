@@ -27,7 +27,7 @@ def send_msg_test(new_req):
             new_data['cc'] = new_req.form['_cc']
 
         r = requests.post(
-            'https://api.mailgun.net/v3/gregpetersen.ca/messages',
+            os.environ['APIURL'],
             auth=('api', os.environ['APIKEY']),
             data=new_data)
 

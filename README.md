@@ -6,10 +6,13 @@ For hosting I utilized Heroku.
 
 ## Environment Variables
 
-ADMIN: yourname &#60;email@mail.com&#62;    
-      e.g:  bob &#60;bob@gmail.com&#62;
+ADMIN: yourname &#60;email@mail.com&#62;
+        e.g:  bob &#60;bob@gmail.com&#62;
 <br><br>
 APIKEY: The apikey provided by Mailgun or Sendgrid for accessing their API.
+<br><br>
+APIURL: The URL for the api.
+        e.g: https://api.mailgun.net/v3/DOMAINAME/messages
 
 ## License
 
