@@ -6,7 +6,10 @@ For hosting I utilized Heroku.
 
 ## Environment Variables
 
-ADMIN: yourname <email@mail.com>    e.g:  bob <bob@gmail.com><br>APIKEY: The apikey provided by Mailgun or Sendgrid for accessing their API.
+ADMIN: yourname &#60;email@mail.com&#62;    
+      e.g:  bob &#60;bob@gmail.com&#62;
+<br>
+APIKEY: The apikey provided by Mailgun or Sendgrid for accessing their API.
 
 ## License
 
