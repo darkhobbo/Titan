@@ -6,6 +6,6 @@ For hosting I utilized Heroku.
 
 ## License
 
-This software is free to use under the MIT license. See the [LICENSE][] file fore more details.
+This software is free to use under the MIT license. See the [LICENSE][] file for more details.
 
 [License]: https://github.com/darkhobbo/Titan/blob/master/LICENSE
