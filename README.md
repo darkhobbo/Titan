@@ -4,6 +4,11 @@ A recreation of https://github.com/chadfawcett/mailhound in Python using Flask. 
 
 For hosting I utilized Heroku.
 
+## Environment Variables
+
+ADMIN: yourname <email@mail.com>    e.g:  bob <bob@gmail.com>
+APIKEY: The apikey provided by Mailgun or Sendgrid for accessing their API.
+
 ## License
 
 This software is free to use under the MIT license. See the [LICENSE][] file for more details.
