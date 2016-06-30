@@ -8,7 +8,7 @@ For hosting I utilized Heroku.
 
 ADMIN: yourname &#60;email@mail.com&#62;    
       e.g:  bob &#60;bob@gmail.com&#62;
-<br>
+<br><br>
 APIKEY: The apikey provided by Mailgun or Sendgrid for accessing their API.
 
 ## License
