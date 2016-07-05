@@ -1,3 +1,4 @@
+"""Main python file. Accepts requests and routes them."""
 from flask import Flask
 from flask import request
 
@@ -10,6 +11,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def login():
+    """Processes request sent to '/' route."""
     return process_form(request)
 
 if __name__ == '__main__':
