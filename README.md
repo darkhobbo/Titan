@@ -12,7 +12,7 @@ ADMIN: yourname &#60;email@mail.com&#62;
 APIKEY: The apikey provided by Mailgun or Sendgrid for accessing their API.
 <br><br>
 APIURL: The URL for the api.
-        e.g: https://api.mailgun.net/v3/DOMAINAME/messages
+        e.g: https://api.mailgun.net/v3/DOMAINNAME/messages
 
 ## License
 
